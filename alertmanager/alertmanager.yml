@@ -1,0 +1,12 @@
+# ./alertmanager/alertmanager.yml
+global:
+  resolve_timeout: 1m
+
+route:
+  receiver: "default"
+
+receivers:
+  - name: "default"
+    # Example: log-only (safe default)
+    webhook_configs:
+      - url: "http://localhost:5001"

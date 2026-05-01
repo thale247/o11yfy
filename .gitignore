@@ -1,0 +1,9 @@
+paid-dashboards
+alerts
+grafana/provisioning/alerting
+data
+.venv
+
+grafana/grafana.ini
+
+*premiumdash*.json
